@@ -1,0 +1,7 @@
+.error-section {
+  font-size: calc(10px + 2vmin);
+}
+
+.error-section > * {
+  margin: 7px;
+}

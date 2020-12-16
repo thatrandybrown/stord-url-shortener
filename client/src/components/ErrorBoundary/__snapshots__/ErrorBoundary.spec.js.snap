@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Error Component when an Error is thrown 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    Oops!
+  </h2>
+  <p>
+    Something went wrong!
+  </p>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
+
+exports[`renders the ErrorBoundary Component with Children 1`] = `
+<p>
+  Success
+</p>
+`;

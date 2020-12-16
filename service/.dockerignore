@@ -1,0 +1,5 @@
+node_modules
+.git
+Dockerfile
+*.sqlite
+README.md

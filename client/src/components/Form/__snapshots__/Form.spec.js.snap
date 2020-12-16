@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the form after successful fetch 1`] = `
+<body>
+  <div
+    id="interstitial-root"
+  />
+  <div>
+    <p>
+      Shorten your link: provide a full url and get a shortened link for sharing.
+    </p>
+    <form>
+      <label
+        for="url"
+      >
+        URL:
+      </label>
+      <input
+        id="url"
+        name="url"
+        required=""
+        type="url"
+        value=""
+      />
+      <input
+        aria-label="Shorten"
+        disabled=""
+        name="submit"
+        type="submit"
+        value="Shorten"
+      />
+    </form>
+  </div>
+</body>
+`;
+
+exports[`Should show the error page when the service call fails 1`] = `
+<body>
+  <div
+    id="interstitial-root"
+  />
+  <div>
+    <section
+      class="error-section"
+    >
+      <h2
+        style="font-size: 10rem;"
+      >
+        Oops!
+      </h2>
+      <p>
+        There was an error submitting your request. Please try again.
+      </p>
+      <a
+        href="/"
+      >
+        Navigate Home
+      </a>
+    </section>
+  </div>
+</body>
+`;
+
+exports[`Should show the error page when the service call returns a bad response 1`] = `
+<body>
+  <div
+    id="interstitial-root"
+  />
+  <div>
+    <section
+      class="error-section"
+    >
+      <h2
+        style="font-size: 10rem;"
+      >
+        Oops!
+      </h2>
+      <p>
+        There was an error submitting your request. Please try again.
+      </p>
+      <a
+        href="/"
+      >
+        Navigate Home
+      </a>
+    </section>
+  </div>
+</body>
+`;
+
+exports[`Should show the interstitial when the service call is initiated 1`] = `
+<body>
+  <div
+    id="interstitial-root"
+  >
+    <div>
+      <svg
+        height="64"
+        version="1"
+        viewBox="0 0 128 128"
+        width="64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M78.75 16.18V1.56a64.1 64.1 0 0147.7 47.7H111.8a49.98 49.98 0 00-33.07-33.08zM16.43 49.25H1.8a64.1 64.1 0 0147.7-47.7V16.2a49.98 49.98 0 00-33.07 33.07zm33.07 62.32v14.62A64.1 64.1 0 011.8 78.5h14.63a49.98 49.98 0 0033.07 33.07zm62.32-33.07h14.62a64.1 64.1 0 01-47.7 47.7v-14.63a49.98 49.98 0 0033.08-33.07z"
+            fill="#b011b0"
+          />
+          <animatetransform
+            attributeName="transform"
+            dur="400ms"
+            from="0 64 64"
+            repeatCount="indefinite"
+            to="-90 64 64"
+            type="rotate"
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div>
+    <p>
+      Shorten your link: provide a full url and get a shortened link for sharing.
+    </p>
+    <form>
+      <label
+        for="url"
+      >
+        URL:
+      </label>
+      <input
+        id="url"
+        name="url"
+        required=""
+        type="url"
+        value="https://reactjs.org/"
+      />
+      <input
+        aria-label="Shorten"
+        name="submit"
+        type="submit"
+        value="Shorten"
+      />
+    </form>
+  </div>
+</body>
+`;
+
+exports[`renders instructions 1`] = `
+<div>
+  <p>
+    Shorten your link: provide a full url and get a shortened link for sharing.
+  </p>
+  <form>
+    <label
+      for="url"
+    >
+      URL:
+    </label>
+    <input
+      id="url"
+      name="url"
+      required=""
+      type="url"
+      value=""
+    />
+    <input
+      aria-label="Shorten"
+      disabled=""
+      name="submit"
+      type="submit"
+      value="Shorten"
+    />
+  </form>
+</div>
+`;

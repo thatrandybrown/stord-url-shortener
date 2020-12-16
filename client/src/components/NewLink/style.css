@@ -1,0 +1,8 @@
+.notice {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  border: 2px rgb(150, 40, 150) solid;
+  border-radius: 1em;
+}

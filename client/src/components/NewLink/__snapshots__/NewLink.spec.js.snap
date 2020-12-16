@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders nothing without data 1`] = `null`;
+
+exports[`renders the Data Display 1`] = `
+<section
+  class="notice"
+>
+  <p>
+    <a
+      href="https://www.google.com"
+    >
+      https://www.google.com
+    </a>
+     is now
+     
+    <a
+      class="shortLink"
+      href="http://localhost/abcdef"
+    >
+      http://localhost/
+      abcdef
+    </a>
+  </p>
+  <button>
+    Copy!
+  </button>
+</section>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Form and NewLink text on the Home Page when the form is submitted 1`] = `
+<body>
+  <div
+    id="interstitial-root"
+  />
+  <div>
+    <p>
+      Shorten your link: provide a full url and get a shortened link for sharing.
+    </p>
+    <form>
+      <label
+        for="url"
+      >
+        URL:
+      </label>
+      <input
+        id="url"
+        name="url"
+        required=""
+        type="url"
+        value=""
+      />
+      <input
+        aria-label="Shorten"
+        disabled=""
+        name="submit"
+        type="submit"
+        value="Shorten"
+      />
+    </form>
+    <section
+      class="notice"
+    >
+      <p>
+        <a
+          href="https://www.google.com"
+        >
+          https://www.google.com
+        </a>
+         is now
+         
+        <a
+          class="shortLink"
+          href="http://localhost/abcdef"
+        >
+          http://localhost/
+          abcdef
+        </a>
+      </p>
+      <button>
+        Copy!
+      </button>
+    </section>
+  </div>
+</body>
+`;
+
+exports[`renders the Form on the Home Page 1`] = `
+<div>
+  <p>
+    Shorten your link: provide a full url and get a shortened link for sharing.
+  </p>
+  <form>
+    <label
+      for="url"
+    >
+      URL:
+    </label>
+    <input
+      id="url"
+      name="url"
+      required=""
+      type="url"
+      value=""
+    />
+    <input
+      aria-label="Shorten"
+      disabled=""
+      name="submit"
+      type="submit"
+      value="Shorten"
+    />
+  </form>
+</div>
+`;

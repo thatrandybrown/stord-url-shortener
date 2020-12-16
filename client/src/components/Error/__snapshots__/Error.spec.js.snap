@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Error Component 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    Oops!
+  </h2>
+  <p>
+    Something went wrong!
+  </p>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
+
+exports[`renders the Error Component with Custom Detail Text 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    Oops!
+  </h2>
+  <p>
+    An Error Occurred
+  </p>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
+
+exports[`renders the Error Component with Custom Heading Text 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    An Error Occurred
+  </h2>
+  <p>
+    Something went wrong!
+  </p>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
+
+exports[`renders the Error component without a Heading 1`] = `
+<section
+  class="error-section"
+>
+  <p>
+    Something went wrong!
+  </p>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
+
+exports[`renders the Error component without a Link 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    Oops!
+  </h2>
+  <p>
+    Something went wrong!
+  </p>
+</section>
+`;
+
+exports[`renders the Error component without a detail text 1`] = `
+<section
+  class="error-section"
+>
+  <h2
+    style="font-size: 10rem;"
+  >
+    Oops!
+  </h2>
+  <a
+    href="/"
+  >
+    Navigate Home
+  </a>
+</section>
+`;
