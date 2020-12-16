@@ -23,6 +23,15 @@ In order to successfully run the project, three environment variables have to be
 * DB_PASSWORD : the password for the db user
 * DB_DATABASE : the target database for the application
 
+Below is an example of the bash commands needed to set these variables (and export them for child processes to consume). Please don't use these values.
+
+```sh
+export DB_USER="user"
+export DB_PASSWORD="password"
+export DB_DATABASE="stordas"
+```
+
+
 These environmental variables are forwarded to both the service and the database container.
 
 After setting these variables, run `make server` to run the application.
